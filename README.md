@@ -74,3 +74,16 @@ lib/
 supabase/
   schema.sql          테이블 + 트리거 + RLS
 ```
+
+---
+
+## 두더지 잡기 게임 (`mole-game/`)
+
+React + Vite 로 만든 별도 프로젝트가 `mole-game/` 폴더에 있습니다.
+실행 방법과 Supabase 연동은 [mole-game/README.md](mole-game/README.md) 를 참고하세요.
+
+```bash
+cd mole-game
+npm install
+npm run dev
+```
